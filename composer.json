@@ -1,0 +1,16 @@
+{
+    "name": "hb/game",
+    "type": "game",
+    "autoload": {
+        "psr-4": {
+            "Hb\\Game\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anthony bossut",
+            "email": "bossut.anthony@gmail.com"
+        }
+    ],
+    "require": {}
+}

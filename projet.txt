@@ -1,0 +1,33 @@
+Projet Jeu de role / combat
+
+La classe Role
+
+    Sera la classe parente de toutes les autres Role de personnage
+    Contient des Skills
+    Contient des Weapons
+    Contient des Statistiques
+
+La classe Wizard qui a les proprietes de Role
+
+La classe Fighter qui a les proprietes de Role
+
+La classe Rogue qui a les proprietes de Role
+
+La classe Druid qui a les proprietes de Role
+
+
+La classe Player
+    Qui contient un Role
+    De l'experience ....
+
+
+
+La classe Skill
+    title
+    damage
+    cost
+    
+
+La classe Weapon
+
+La class Stat
