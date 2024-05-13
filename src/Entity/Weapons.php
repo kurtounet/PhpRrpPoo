@@ -3,17 +3,16 @@
 namespace Src\Entity;
 
 //require_once('vendor/autoload.php');
-class Skill
+class Weapons
 {
     private string $title;
     private float $damage;
-    private float $cost; // energie utilisée pour une attaque
 
-    public function __construct(float $damage, float $cost, string $title)
+
+    public function __construct(float $damage, string $title)
     {
-        $this->damage = $damage;
-        $this->cost = $cost;
         $this->title = $title;
+        $this->damage = $damage;
     }
 
     /**
@@ -52,29 +51,6 @@ class Skill
     public function setDamage($damage)
     {
         $this->damage = $damage;
-
-        return $this;
-    }
-
-
-
-
-    /**
-     * Get the value of cost
-     */
-    public function getCost()
-    {
-        return $this->cost;
-    }
-
-    /**
-     * Set the value of cost
-     *
-     * @return  self
-     */
-    public function setCost($cost)
-    {
-        $this->cost = $cost;
 
         return $this;
     }
