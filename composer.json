@@ -3,7 +3,7 @@
     "type": "game",
     "autoload": {
         "psr-4": {
-            "Hb\\Game\\": "src/"
+            "Src\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,7 @@
             "email": "bossut.anthony@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/var-dumper": "^7.0"
+    }
 }

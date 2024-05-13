@@ -1,4 +1,11 @@
 <?PHP
+namespace src\Entity;
+
+require_once '../../vendor/autoload.php';
+
+
+use src\Entity\Role;
+
 class Player  {
    private string $name;
    private Role $role;

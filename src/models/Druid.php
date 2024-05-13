@@ -1,7 +1,5 @@
 <?PHP
-class Statistic  {
-
-   
+class Druid extends Role {
    public function __construct() {
     //parent::__construct("");
    }
